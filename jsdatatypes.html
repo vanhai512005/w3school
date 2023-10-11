@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript</h2>
+
+<p>When adding a number and a string, JavaScript will treat the number as a string.</p>
+
+<p id="demo"></p>
+
+<script>
+let x = 16 + "Volvo";
+document.getElementById("demo").innerHTML = x;
+</script>
+
+<h2>JavaScript</h2>
+
+<p>When adding a string and a number, JavaScript will treat the number as a string.</p>
+
+<p id="demo"></p>
+
+<script>
+let x = "Volvo" + 16;
+document.getElementById("demo").innerHTML = x;
+</script>
+
+<h2>JavaScript</h2>
+
+<p>JavaScript evaluates expressions from left to right. Different sequences can produce different results:</p>
+
+<p id="demo"></p>
+
+<script>
+let x = 16 + 4 + "Volvo";
+document.getElementById("demo").innerHTML = x;
+</script>
+
+<h2>JavaScript Strings</h2>
+
+<p>You can use quotes inside a string, as long as they don't match the quotes surrounding the string:</p>
+
+<p id="demo"></p>
+
+<script>
+let answer1 = "It's alright";
+let answer2 = "He is called 'Johnny'";
+let answer3 = 'He is called "Johnny"';
+
+document.getElementById("demo").innerHTML =
+answer1 + "<br>" + 
+answer2 + "<br>" + 
+answer3;
+</script>
+
+
+
+</body>
+</html>
